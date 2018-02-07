@@ -1,7 +1,10 @@
 import { Component } from '@angular/core';
 
 @Component({
+
   selector: 'my-app',
-  template: `<navbar></navbar>`,
+  template: `<navbar></navbar>,
+  <carousel></carousel> ,
+  <router-outlet></router-outlet>`,
 })
-export class AppComponent  {name = 'HackHub'; }
+export class AppComponent  { }
